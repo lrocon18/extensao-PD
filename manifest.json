@@ -1,0 +1,30 @@
+{
+  "name": "KupulasAD",
+  "version": "1.0",
+  "icons":  {
+    "16": "/images/logo-16.png",
+    "48": "/images/logo-16.png",
+    "128": "/images/logo-16.png"
+  },
+  "description": "Evil KupulasAD",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.passeidireto.com/*",
+        "https://www.passeidireto.com/*",
+        "http://*.passeidireto.com/*",
+        "https://*.passeidireto.com/*"
+      ],
+      "js": [
+        "jquery-3.6.0.min.js",
+        "script.js"
+      ]
+    }
+  ],
+  "manifest_version": 3
+}
