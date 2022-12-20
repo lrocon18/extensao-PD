@@ -37,6 +37,5 @@ Ao copiar e extrair os arquivos, você deve ir em seu navegador e acessar a aba 
 
 ## Sobre o Autor
 
-- Twitter - [@roconzin](https://twitter.com/roconzin)
 - Linkedin - [Lucas Rocon](https://www.linkedin.com/in/lucas-rocon-1552ba231/)
 
